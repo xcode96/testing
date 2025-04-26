@@ -33,44 +33,44 @@ const About = () => {
             <p className="flex items-end text-5xl text-gray-500">
               CODE IS CRAFT
             </p>
-            <Card
-              style={{ rotate: "75deg", top: "30%", left: "20%" }}
-              text="GenAI"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="MongoDB"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
-              text="Langchain"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "55%", left: "0%" }}
-              text="React.js"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              text="Node.js"
-              containerRef={grid2Container}
-            />
+         <Card
+  style={{ rotate: "75deg", top: "30%", left: "20%" }}
+  text="GenAI"
+  containerRef={grid2Container}
+/>
+<Card
+  style={{ rotate: "-30deg", top: "60%", left: "45%" }}
+  text="Database"
+  containerRef={grid2Container}
+/>
+<Card
+  style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
+  text="Langchain"
+  containerRef={grid2Container}
+/>
+<Card
+  style={{ rotate: "-45deg", top: "55%", left: "0%" }}
+  text="Middleware"
+  containerRef={grid2Container}
+/>
+<Card
+  style={{ rotate: "20deg", top: "10%", left: "38%" }}
+  text="Server"
+  containerRef={grid2Container}
+/>
             <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
-              image="assets/logos/csharp-pink.png"
+              image="assets/logos/python.png"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "70%", left: "25%" }}
-              image="assets/logos/dotnet-pink.png"
+              image="assets/logos/nodejs.png"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "5%", left: "10%" }}
-              image="assets/logos/blazor-pink.png"
+              image="assets/logos/Chatgpt.png"
               containerRef={grid2Container}
             />
           </div>
