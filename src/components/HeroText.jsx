@@ -19,7 +19,7 @@ const HeroText = () => {
           transition={{ delay: 1 }}
         >
           
-          Hi I'm Mani Bharathi
+          Hi I'm Bharathi
         </motion.h1>
         <div className="flex flex-col items-start">
           <motion.p
